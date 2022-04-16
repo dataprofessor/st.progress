@@ -1,5 +1,7 @@
 import time
 
+st.title('st.progress')
+
 my_bar = st.progress(0)
 
 for percent_complete in range(100):
