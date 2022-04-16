@@ -1,13 +1,13 @@
-# st.template
+# st.progress
 
-`st.template` allows writing text and arguments to the Streamlit app.
+`st.progress` displays a progress bar that updates graphically as the iteration progresses.
 
 ## Demo app
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/dataprofessor/st.template/)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/dataprofessor/st.progress/)
 
 ## Code
-Here's how to use `st.write`:
+Here's how to use `st.progress`:
 ```python
 import streamlit as st
 
@@ -21,4 +21,4 @@ import streamlit as st
 ```
 
 ## Further reading
-
+` [`st.progress`](https://docs.streamlit.io/library/api-reference/status/st.progress)
