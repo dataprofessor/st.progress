@@ -44,7 +44,7 @@ with st.expander('About this app'):
      st.write('You can now display the progress of your calculations in a Streamlit app with the `st.progress` command.')
 ```
 
-Finally, we define a progress bar and instantiate it with a starting value of `0`. A `for` loop iterating until `100` is performed. In each iteration, we use `time.sleep(0.05)` to allow the app to wait for `0.05` before adding a value of `1` to the `my_bar` progress bar and in doing so the graphical display of the bar increases with each iteration.
+Finally, we define a progress bar and instantiate it with a starting value of `0`. Then, a `for` loop will iterate from `0` until `100` is reached. In each iteration, we use `time.sleep(0.05)` to allow the app to wait for `0.05` before adding a value of `1` to the `my_bar` progress bar and in doing so the graphical display of the bar increases with each iteration.
 ```python
 my_bar = st.progress(0)
 
